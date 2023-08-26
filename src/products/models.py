@@ -25,3 +25,6 @@ class Product(models.Model):
             self.stripe_price = int(self.price * 100)
             self.price_changed_timestamp = timezone.now()
         super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.name
