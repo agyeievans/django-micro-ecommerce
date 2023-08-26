@@ -111,6 +111,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venv
 
 # Spyder project settings
 .spyderproject
@@ -261,3 +262,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+src/cfehome/micro-ecommerce.code-workspace
