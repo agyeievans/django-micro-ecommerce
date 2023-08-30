@@ -18,3 +18,9 @@ def product_create_view(request):
 
     context['form'] = form
     return render(request, 'products/create.html', context)
+
+def product_list_view(request):
+    # fetch all products from db
+    object_list = Product.objects.all()
+
+    return render(request, "products/list.html", {"object_list": object_list})
