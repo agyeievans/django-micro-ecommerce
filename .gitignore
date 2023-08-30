@@ -264,4 +264,4 @@ dist
 .pnp.*
 
 src/cfehome/micro-ecommerce.code-workspace
-
+local-cdn/
